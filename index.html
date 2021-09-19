@@ -12,6 +12,16 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<script>
+			function myFunction() {
+			/* Get the text field */
+			var copyText = "byronbarkhuizen@gmail.com";
+
+			/* Copy the text inside the text field */
+			navigator.clipboard.writeText(copyText);
+
+			}
+	</script>
 	<body class="is-preload">
 
 		<!-- Page Wrapper -->
@@ -41,9 +51,11 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<div class="logo"><span class="icon fa-gem"></span></div>
+							<div class="logo"><span class="icon fa-gem"></span><span class="icon fa-gem"></span></div>
 							<h2>Byron Barkhuizen</h2>
-							<p>Software Engineer, and Data Science enthusiast. Add me on <a href="https://www.linkedin.com/in/byron-barkhuizen/">LinkedIn</a></p>
+							<p>Software Engineer, and Data Science enthusiast. Add me on <a href="https://www.linkedin.com/in/byron-barkhuizen/">LinkedIn</a>,
+								<br/>check me out on <a href="">GitHub</a>, or contact me at byronbarkhuizen@gmail.com <a onclick="myFunction()">Copy email</a>
+							</p>
 						</div>
 					</section>
 
